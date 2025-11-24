@@ -219,7 +219,7 @@ section{
     .navlist{
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -100%;
         width: 300px;
         height: 35vh;
         background:#bd8815; 
@@ -234,7 +234,7 @@ section{
         display: block;
         margin: 7px 0;
     }
-    .navlist .open{
+    .navlist.open{
         right: 0;
     }
 }
@@ -244,4 +244,5 @@ section{
         height: auto;
     }
 }
+
  
